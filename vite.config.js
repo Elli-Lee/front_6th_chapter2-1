@@ -8,4 +8,10 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: 'src/setupTests.js',
   },
+  base: '/front_6th_chapter2-1/',
+  build: {
+    rollupOptions: {
+      input: 'index.advanced.html',
+    },
+  },
 });
